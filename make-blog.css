@@ -1,0 +1,12 @@
+label {
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background-color: rgb(189, 229, 240);
+}
+
+button {
+    background-color: #D72523;
+}

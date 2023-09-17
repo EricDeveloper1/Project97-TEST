@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Making Blog..</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="make-blog.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <div class="form-group">
+                <label>Make Blog:</label>
+                <input type="text" id="blog_name" placeholder="Blog Name, ex: My Blog- by XXX" class="form-control">
+            </div>
+            <button style="font-size: 20px;" onclick="addBlog()" class="btn btn-primary"> Add Blog</button>
+            <br><br><br>
+            <h1 class="color-white">Read Other Blogs -</h1>
+
+            <div id="output"></div>
+        </center>
+    </div>
+    <script src="make-blog.js"></script>
+</body>
+
+</html>

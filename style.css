@@ -1,0 +1,18 @@
+#blog-hover {
+    font-size: 30px;
+
+}
+
+#blog-hover:hover {
+    font-size: 50px;
+    transition: font-size 0.6s ease-in-out;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: lightblue;
+}
